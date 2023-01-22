@@ -76,7 +76,7 @@ const Sidebar = () => {
           </Link>
         </li>
       </ul>
-      <div className="legal-text">&copy; Sanjay Mansel</div>
+      <div className="legal-text">&copy;2023 Sanjay Mansel</div>
     </div>
   );
 };

@@ -1,0 +1,22 @@
+$bp-largest: 75em; // 1200px
+$bp-medium: 56.25em; //900px
+
+.contact {
+  &__title {
+    font-size: 3rem;
+    margin: 2rem 0rem;
+  }
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  &__item {
+    display: flex;
+    font-size: 2rem;
+    &-title {
+      width: 25%;
+    }
+    &-content {
+      width: 75%;
+    }
+  }
+}

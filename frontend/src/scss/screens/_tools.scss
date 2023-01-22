@@ -1,0 +1,61 @@
+$bp-largest: 75em; // 1200px
+$bp-medium: 56.25em; //900px
+
+.tools-used {
+  height: 20rem;
+  margin: 2rem;
+  &__set {
+    width: 100%;
+    position: relative;
+    height: 20rem;
+    &-icon-set1 {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    &-icon-set2 {
+      display: flex;
+      justify-content: space-between;
+      margin: 0px 35%;
+    }
+    &-icon-set3 {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    &-icon-set4 {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 10% 35% 0% 30%;
+    }
+    &-icons {
+      height: 5rem;
+      width: 5rem;
+    }
+    &-s1 {
+      width: 65%;
+      height: 75%;
+      position: absolute;
+      left: 0;
+      top: 0rem;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    &-s2 {
+      height: 75%;
+      width: 65%;
+      position: absolute;
+      right: 0;
+      top: 2rem;
+      border-radius: 50%;
+    }
+    &-s3 {
+      width: 65%;
+      height: 75%;
+      position: absolute;
+      left: 20%;
+      top: 10rem;
+      border-radius: 50%;
+    }
+  }
+}
