@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Icons from "../images/sprite.svg";
 
@@ -7,6 +7,17 @@ const Sidebar = () => {
 
   const activeClass = "side-nav__item side-nav__item-active";
   const inactiveClass = "side-nav__item";
+
+  useEffect(() => {
+    const pathname = window.location.pathname.split("/")[1];
+    if (pathname === "profile") {
+      setSelectedTopic("work");
+    } else if (pathname === "skillset") {
+      setSelectedTopic("skills");
+    } else if (pathname === "contact") {
+      setSelectedTopic("contact");
+    }
+  }, [setSelectedTopic]);
 
   const selectPage = (e) => {
     if (e.target.innerHTML.includes("Skill Set")) {
