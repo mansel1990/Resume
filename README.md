@@ -1,6 +1,6 @@
 # React Boilerplate
 
-This project acts as a react boilerplate for any project.
+Visit mansel.in
 
 ## Tech stack this template is made of are:
 
