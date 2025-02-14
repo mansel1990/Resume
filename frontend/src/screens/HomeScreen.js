@@ -1,6 +1,7 @@
 import React from "react";
 
 import Icons from "../images/sprite.svg";
+import DownloadResume from "../components/DownloadResume";
 
 const HomeScreen = () => {
   return (
@@ -17,10 +18,12 @@ const HomeScreen = () => {
           continous learning while still nurturing junior developers.
           <br /> Front-end technologies such as{" "}
           <span className="home-content__content-styled">React JS</span> and
-          EXTJS is my forte with good working experience on Java, Node and
+          EXTJS are my forte with good working experience on Java, Node and
           Express.
           <br />
         </div>
+
+        <DownloadResume />
 
         <div className="home-content__ach">
           <div className="home-content__ach-group">

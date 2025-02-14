@@ -8,6 +8,48 @@ const Profile = () => {
       <WorkTimeline>
         <div className="work-profile">
           <div className="work-profile__job">
+            <div className="work-profile__job-title">
+              Revcomm Inc., Tokyo Japan
+            </div>
+            <div className="work-profile__job-title-sub1">
+              Senior Frontend Engineer
+            </div>
+            <div className="work-profile__job-title-sub2">
+              July 2023 - November 2024
+            </div>
+            <div className="work-profile__job-content">
+              <ul>
+                <li>
+                  Developed a unique feature capable of processing CSV files
+                  with over 30,000 data rows in under 1 second.
+                </li>
+                <li>
+                  Built performance improvement features that played a key role
+                  in attracting new merchants within the first few months.
+                </li>
+                <li>
+                  Successfully managed multiple projects, utilizing Jira/Notion
+                  boards to prioritize requirements based on complexity and
+                  ensure efficient sprint planning in a fast-paced environment.
+                </li>
+                <li>
+                  Led a team of 4 developers to establish a reliable release
+                  schedule planning calendar, improving transparency and
+                  predictability in project delivery.
+                </li>
+                <li>
+                  Technologies Used: React, TypeScript, React Query, Next.js,
+                  Python, Tailwind CSS.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </WorkTimeline>
+
+      <WorkTimeline>
+        <div className="work-profile">
+          <div className="work-profile__job">
             <div className="work-profile__job-title">State Street</div>
             <div className="work-profile__job-title-sub1">Tech Lead</div>
             <div className="work-profile__job-title-sub2">
